@@ -1,3 +1,4 @@
+import Hero from '@/components/landing-page/hero/Hero'
 import Navbar from '@/components/landing-page/navbar/Navbar'
 
 export const description =
@@ -11,6 +12,7 @@ export default function LandingPage() {
 
       <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
         {/* 2. Hero Section */}
+        <Hero />
         {/* 3. About Me Section */}
         {/* 4. Service  */}
         {/* 5. My Project Section */}
